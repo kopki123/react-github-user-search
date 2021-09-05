@@ -1,0 +1,25 @@
+input {
+  width: 30%;
+  min-width: 220px;
+  padding: 0.4rem 0.5rem;
+  border: none;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+.background-color {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* @media screen and (min-width: 768px) {
+  input {
+    width: 30%;
+  }
+} */
